@@ -1,3 +1,8 @@
 # Installation
 
-    curl -L https://raw.githubusercontent.com/tswr/.vimrc/master/install.sh | sh
+cd
+git clone https://github.com/nvol/vimchik
+ln -Ffs ~/vimchik/.vim ~
+ln -fs ~/vimchik/.vimrc ~
+vim +PluginInstall +qall
+
